@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalla2Activity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/fondo1"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:text="Bienvenido, elige una opción"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivLogo2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:srcCompat="@drawable/logorollitos" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ver inventario"
+        android:textColor="#FFF6F6" />
+
+    <Button
+        android:id="@+id/btnInventario"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#251507"
+        android:text="Ir" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Realizar una orden"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnOrden"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#251507"
+        android:text="Ir" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Control de inventario"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnControl"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#251507"
+        android:text="Ir" />
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
